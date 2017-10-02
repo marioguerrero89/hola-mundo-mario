@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7345BB801F8290F1004F30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB7F1F8290F1004F30DC /* AppDelegate.swift */; };
+		7345BB821F8290F1004F30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB811F8290F1004F30DC /* ViewController.swift */; };
+		7345BB851F8290F1004F30DC /* labe in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB831F8290F1004F30DC /* labe */; };
+		7345BB871F8290F1004F30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB861F8290F1004F30DC /* Assets.xcassets */; };
+		7345BB8A1F8290F1004F30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */; };
+		7345BB951F8290F2004F30DC /* hola_mundo_marioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB941F8290F2004F30DC /* hola_mundo_marioTests.swift */; };
+		7345BBA01F8290F2004F30DC /* hola_mundo_marioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB9F1F8290F2004F30DC /* hola_mundo_marioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7345BB911F8290F2004F30DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7345BB741F8290F1004F30DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7345BB7B1F8290F1004F30DC;
+			remoteInfo = "hola mundo mario";
+		};
+		7345BB9C1F8290F2004F30DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7345BB741F8290F1004F30DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7345BB7B1F8290F1004F30DC;
+			remoteInfo = "hola mundo mario";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7345BB7C1F8290F1004F30DC /* hola mundo mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hola mundo mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345BB7F1F8290F1004F30DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7345BB811F8290F1004F30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7345BB841F8290F1004F30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/labe; sourceTree = "<group>"; };
+		7345BB861F8290F1004F30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7345BB891F8290F1004F30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7345BB8B1F8290F1004F30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7345BB901F8290F2004F30DC /* hola mundo marioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hola mundo marioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345BB941F8290F2004F30DC /* hola_mundo_marioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hola_mundo_marioTests.swift; sourceTree = "<group>"; };
+		7345BB961F8290F2004F30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7345BB9B1F8290F2004F30DC /* hola mundo marioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hola mundo marioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345BB9F1F8290F2004F30DC /* hola_mundo_marioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hola_mundo_marioUITests.swift; sourceTree = "<group>"; };
+		7345BBA11F8290F2004F30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7345BB791F8290F1004F30DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB8D1F8290F2004F30DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB981F8290F2004F30DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7345BB731F8290F1004F30DC = {
+			isa = PBXGroup;
+			children = (
+				7345BB7E1F8290F1004F30DC /* hola mundo mario */,
+				7345BB931F8290F2004F30DC /* hola mundo marioTests */,
+				7345BB9E1F8290F2004F30DC /* hola mundo marioUITests */,
+				7345BB7D1F8290F1004F30DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7345BB7D1F8290F1004F30DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7345BB7C1F8290F1004F30DC /* hola mundo mario.app */,
+				7345BB901F8290F2004F30DC /* hola mundo marioTests.xctest */,
+				7345BB9B1F8290F2004F30DC /* hola mundo marioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7345BB7E1F8290F1004F30DC /* hola mundo mario */ = {
+			isa = PBXGroup;
+			children = (
+				7345BB7F1F8290F1004F30DC /* AppDelegate.swift */,
+				7345BB811F8290F1004F30DC /* ViewController.swift */,
+				7345BB831F8290F1004F30DC /* labe */,
+				7345BB861F8290F1004F30DC /* Assets.xcassets */,
+				7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */,
+				7345BB8B1F8290F1004F30DC /* Info.plist */,
+			);
+			path = "hola mundo mario";
+			sourceTree = "<group>";
+		};
+		7345BB931F8290F2004F30DC /* hola mundo marioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7345BB941F8290F2004F30DC /* hola_mundo_marioTests.swift */,
+				7345BB961F8290F2004F30DC /* Info.plist */,
+			);
+			path = "hola mundo marioTests";
+			sourceTree = "<group>";
+		};
+		7345BB9E1F8290F2004F30DC /* hola mundo marioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7345BB9F1F8290F2004F30DC /* hola_mundo_marioUITests.swift */,
+				7345BBA11F8290F2004F30DC /* Info.plist */,
+			);
+			path = "hola mundo marioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7345BB7B1F8290F1004F30DC /* hola mundo mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345BBA41F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo mario" */;
+			buildPhases = (
+				7345BB781F8290F1004F30DC /* Sources */,
+				7345BB791F8290F1004F30DC /* Frameworks */,
+				7345BB7A1F8290F1004F30DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hola mundo mario";
+			productName = "hola mundo mario";
+			productReference = 7345BB7C1F8290F1004F30DC /* hola mundo mario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7345BB8F1F8290F2004F30DC /* hola mundo marioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345BBA71F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo marioTests" */;
+			buildPhases = (
+				7345BB8C1F8290F2004F30DC /* Sources */,
+				7345BB8D1F8290F2004F30DC /* Frameworks */,
+				7345BB8E1F8290F2004F30DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7345BB921F8290F2004F30DC /* PBXTargetDependency */,
+			);
+			name = "hola mundo marioTests";
+			productName = "hola mundo marioTests";
+			productReference = 7345BB901F8290F2004F30DC /* hola mundo marioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7345BB9A1F8290F2004F30DC /* hola mundo marioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345BBAA1F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo marioUITests" */;
+			buildPhases = (
+				7345BB971F8290F2004F30DC /* Sources */,
+				7345BB981F8290F2004F30DC /* Frameworks */,
+				7345BB991F8290F2004F30DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7345BB9D1F8290F2004F30DC /* PBXTargetDependency */,
+			);
+			name = "hola mundo marioUITests";
+			productName = "hola mundo marioUITests";
+			productReference = 7345BB9B1F8290F2004F30DC /* hola mundo marioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7345BB741F8290F1004F30DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mario Guerrero";
+				TargetAttributes = {
+					7345BB7B1F8290F1004F30DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7345BB8F1F8290F2004F30DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7345BB7B1F8290F1004F30DC;
+					};
+					7345BB9A1F8290F2004F30DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7345BB7B1F8290F1004F30DC;
+					};
+				};
+			};
+			buildConfigurationList = 7345BB771F8290F1004F30DC /* Build configuration list for PBXProject "hola mundo mario" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7345BB731F8290F1004F30DC;
+			productRefGroup = 7345BB7D1F8290F1004F30DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7345BB7B1F8290F1004F30DC /* hola mundo mario */,
+				7345BB8F1F8290F2004F30DC /* hola mundo marioTests */,
+				7345BB9A1F8290F2004F30DC /* hola mundo marioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7345BB7A1F8290F1004F30DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345BB8A1F8290F1004F30DC /* LaunchScreen.storyboard in Resources */,
+				7345BB871F8290F1004F30DC /* Assets.xcassets in Resources */,
+				7345BB851F8290F1004F30DC /* labe in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB8E1F8290F2004F30DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB991F8290F2004F30DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7345BB781F8290F1004F30DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345BB821F8290F1004F30DC /* ViewController.swift in Sources */,
+				7345BB801F8290F1004F30DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB8C1F8290F2004F30DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345BB951F8290F2004F30DC /* hola_mundo_marioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345BB971F8290F2004F30DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345BBA01F8290F2004F30DC /* hola_mundo_marioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7345BB921F8290F2004F30DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7345BB7B1F8290F1004F30DC /* hola mundo mario */;
+			targetProxy = 7345BB911F8290F2004F30DC /* PBXContainerItemProxy */;
+		};
+		7345BB9D1F8290F2004F30DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7345BB7B1F8290F1004F30DC /* hola mundo mario */;
+			targetProxy = 7345BB9C1F8290F2004F30DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7345BB831F8290F1004F30DC /* labe */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7345BB841F8290F1004F30DC /* Base */,
+			);
+			name = labe;
+			sourceTree = "<group>";
+		};
+		7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7345BB891F8290F1004F30DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7345BBA21F8290F2004F30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7345BBA31F8290F2004F30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7345BBA51F8290F2004F30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo mario/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-mario";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7345BBA61F8290F2004F30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo mario/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-mario";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7345BBA81F8290F2004F30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo marioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-marioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hola mundo mario.app/hola mundo mario";
+			};
+			name = Debug;
+		};
+		7345BBA91F8290F2004F30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo marioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-marioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hola mundo mario.app/hola mundo mario";
+			};
+			name = Release;
+		};
+		7345BBAB1F8290F2004F30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo marioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-marioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hola mundo mario";
+			};
+			name = Debug;
+		};
+		7345BBAC1F8290F2004F30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53L3DZU45B;
+				INFOPLIST_FILE = "hola mundo marioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mgpro.hola-mundo-marioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hola mundo mario";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7345BB771F8290F1004F30DC /* Build configuration list for PBXProject "hola mundo mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345BBA21F8290F2004F30DC /* Debug */,
+				7345BBA31F8290F2004F30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345BBA41F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345BBA51F8290F2004F30DC /* Debug */,
+				7345BBA61F8290F2004F30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345BBA71F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo marioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345BBA81F8290F2004F30DC /* Debug */,
+				7345BBA91F8290F2004F30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345BBAA1F8290F2004F30DC /* Build configuration list for PBXNativeTarget "hola mundo marioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345BBAB1F8290F2004F30DC /* Debug */,
+				7345BBAC1F8290F2004F30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7345BB741F8290F1004F30DC /* Project object */;
+}
