@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7345BB801F8290F1004F30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB7F1F8290F1004F30DC /* AppDelegate.swift */; };
 		7345BB821F8290F1004F30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB811F8290F1004F30DC /* ViewController.swift */; };
-		7345BB851F8290F1004F30DC /* labe in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB831F8290F1004F30DC /* labe */; };
 		7345BB871F8290F1004F30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB861F8290F1004F30DC /* Assets.xcassets */; };
 		7345BB8A1F8290F1004F30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */; };
 		7345BB951F8290F2004F30DC /* hola_mundo_marioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345BB941F8290F2004F30DC /* hola_mundo_marioTests.swift */; };
@@ -37,7 +36,6 @@
 		7345BB7C1F8290F1004F30DC /* hola mundo mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hola mundo mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7345BB7F1F8290F1004F30DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7345BB811F8290F1004F30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7345BB841F8290F1004F30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/labe; sourceTree = "<group>"; };
 		7345BB861F8290F1004F30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7345BB891F8290F1004F30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7345BB8B1F8290F1004F30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				7345BB7F1F8290F1004F30DC /* AppDelegate.swift */,
 				7345BB811F8290F1004F30DC /* ViewController.swift */,
-				7345BB831F8290F1004F30DC /* labe */,
 				7345BB861F8290F1004F30DC /* Assets.xcassets */,
 				7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */,
 				7345BB8B1F8290F1004F30DC /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				7345BB8A1F8290F1004F30DC /* LaunchScreen.storyboard in Resources */,
 				7345BB871F8290F1004F30DC /* Assets.xcassets in Resources */,
-				7345BB851F8290F1004F30DC /* labe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7345BB831F8290F1004F30DC /* labe */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7345BB841F8290F1004F30DC /* Base */,
-			);
-			name = labe;
-			sourceTree = "<group>";
-		};
 		7345BB881F8290F1004F30DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
